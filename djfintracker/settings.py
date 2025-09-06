@@ -132,3 +132,10 @@ LOGOUT_REDIRECT_URL='login'
 import os
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+
+ALLOWED_HOSTS = [
+    "financetracker-y5w2.onrender.com",  # your Render domain
+    "localhost",
+    "127.0.0.1",
+]
+
